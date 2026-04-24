@@ -29,6 +29,24 @@ The dashboard highlights core KPIs and breaks down revenue and sales by category
 - Highlights the impact of subscriptions, discounts, and shipping choices.
 - Surfaces product-level insights using review ratings and sales volume.
 
+## Project Structure
+```
+Customer_Shopping _Behaviour_Analysis/
+├─ dashboard/
+│  ├─ customer_behavior_dashboard.pbix
+│  └─ dashboard.png
+├─ data/
+│  └─ customer_shopping_behavior.csv
+├─ documents/
+├─ notebooks/
+│  └─ Customer_Shopping _Behaviour_Analysis.ipynb
+├─ sql/
+│  └─ customer_behavior_analysis.sql
+├─ .gitignore
+├─ LICENSE
+└─ README.md
+```
+
 ## How to Run
 1. Create and activate a Python virtual environment.
 2. Install required packages (at minimum: `pandas`, `jupyter`).
